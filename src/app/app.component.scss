@@ -1,0 +1,11 @@
+.container-splash {
+  --background: none;
+  background: #ffff90;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
+}

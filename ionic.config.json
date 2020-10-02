@@ -1,0 +1,7 @@
+{
+  "name": "jugAPP",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

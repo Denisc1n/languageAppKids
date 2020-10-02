@@ -1,0 +1,123 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: url(../../../assets/images/fondo.jpg);
+  background-position: left;
+  background-size: cover;
+  transition: all 1s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.botones-objetos {
+  width: 100%;
+  height: 20%;
+  box-shadow: 0px 0px 33px 13px rgba(0, 0, 0, 0.75);
+  border: 5px solid rgb(51, 34, 21);
+  background-color: #dfec93;
+  background-size: contain;
+}
+
+.container-objetos {
+  width: 60%;
+  height: 90%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+}
+
+.flechi {
+  font-size: 40px;
+}
+
+.button-pic {
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 70%;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+
+.unoNum {
+  background: url(../../../assets/images/numbers/1.png) center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.dosNum {
+  background: url(../../../assets/images/numbers/2.png) center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.tresNum {
+  background: url(../../../assets/images/numbers/3.png) center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.cuatroNum {
+  background: url(../../../assets/images/numbers/4.png) center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.cincoNum {
+  background: url(../../../assets/images/numbers/5.png) center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.leonAni {
+  background: url(../../../assets/images/animals/5.png) center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.tortugaAni {
+  background: url(../../../assets/images/animals/4.png) center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.caballoAni {
+  background: url(../../../assets/images/animals/3.png) center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.zorroAni {
+  background: url(../../../assets/images/animals/2.png) center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.vacaAni {
+  background: url(../../../assets/images/animals/1.png) center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+// .rojoCol {
+//   background: url(../../../assets/images/colours/5.png) center;
+//   background-size: contain;
+//   background-repeat: no-repeat;
+// }
+// .azulCol {
+//   background: url(../../../assets/images/colours/3.png) center;
+//   background-size: contain;
+//   background-repeat: no-repeat;
+// }
+// .verdeCol {
+//   background: url(../../../assets/images/colours/2.png) center;
+//   background-size: contain;
+//   background-repeat: no-repeat;
+// }
+// .amarilloCol {
+//   background: url(../../../assets/images/colours/4.png) center;
+//   background-size: contain;
+//   background-repeat: no-repeat;
+// }
+// .rosaCol {
+//   background: url(../../../assets/images/colours/1.png) center;
+//   background-size: contain;
+//   background-repeat: no-repeat;
+// }

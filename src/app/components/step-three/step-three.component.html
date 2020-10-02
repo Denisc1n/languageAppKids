@@ -1,0 +1,46 @@
+<div>
+  <img
+    style="height: 30px; width: 50px"
+    src="{{ selectedLanguage }}"
+    (click)="changeLanguage()"
+  />
+  <img
+    style="height: 30px; width: 50px; margin-left: 20px"
+    src="{{ selectedCategory }}"
+    (click)="changeCategory()"
+  />
+</div>
+
+<div class="container">
+  <div class="container-objetos">
+    <div class="botones-objetos btnUno" (click)="playClip(1)">
+      <img class="button-pic" src="{{ imagePath[0] }}" />
+    </div>
+    <div class="botones-objetos btnDos" (click)="playClip(2)">
+      <img class="button-pic" src="{{ imagePath[1] }}" />
+    </div>
+    <div class="botones-objetos btnTres" (click)="playClip(3)">
+      <img class="button-pic" src="{{ imagePath[2] }}" />
+    </div>
+    <div class="botones-objetos btnCuatro" (click)="playClip(4)">
+      <img class="button-pic" src="{{ imagePath[3] }}" />
+    </div>
+    <div class="botones-objetos btnCinco" (click)="playClip(5)">
+      <img class="button-pic" src="{{ imagePath[4] }}" />
+    </div>
+  </div>
+</div>
+<div>
+  <ion-icon
+    class="flechi"
+    name="arrow-back-outline"
+    (click)="return()"
+  ></ion-icon>
+  <ion-icon
+    name="enter-sharp"
+    class="flechi"
+    style="margin-left: 85%"
+    size="large"
+    (click)="goLogin()"
+  ></ion-icon>
+</div>
